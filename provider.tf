@@ -1,4 +1,4 @@
 provider "aws" {
-        region = "${var.miregion}"
-        profile = "${var.miprofile}"
+        region = var.miregion
+        profile = var.miprofile
 }
