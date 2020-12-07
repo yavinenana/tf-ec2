@@ -6,3 +6,7 @@ resource "aws_instance" "example" {
   instance_type = "t2.small"
   ami = "ami-0885b1f6bd170450c"
 }
+
+terraform {
+  backend "s3" {}
+}
